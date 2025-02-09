@@ -1,6 +1,5 @@
 body {
-    background-color: #ffe4e1;
-    padding: 40px;
+    background-color: #fff0f5; 
     font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
@@ -10,19 +9,24 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 400px;
     background: white;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #ffb6c1;
+    border: 2px solid #ffccd9; 
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 
 h2, h3 {
-    text-align: center;
-    color: #d14777;
+    color: #d14777; 
     margin-bottom: 16px;
+}
+
+.student-id {
+    color: #ff1493; 
+    font-weight: bold;
 }
 
 input, select, button {
@@ -30,14 +34,14 @@ input, select, button {
     padding: 10px;
     margin: 10px auto;
     display: block;
-    border: 2px solid #ffb6c1;
+    border: 2px solid #ffccd9; 
     border-radius: 8px;
     font-size: 16px;
-    background-color: #fff0f5;
+    background-color: #ffe4e1; 
 }
 
 button {
-    background-color: #ff69b4;
+    background-color: #ff69b4; 
     color: white;
     border: none;
     cursor: pointer;
@@ -46,11 +50,11 @@ button {
 }
 
 button:hover {
-    background-color: #ff1493;
+    background-color: #ff1493; 
 }
 
-.expense-list li {
-    background: #ffe4e1;
+#expenseList li {
+    background: #ffe4e1; 
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 6px;
@@ -58,9 +62,5 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    border: 2px solid #ffb6c1;
-}
-
-.expense-list li small {
-    color: #d14777;
-}
+    border: 2px solid #ffccd9; 
+} 
