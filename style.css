@@ -1,0 +1,41 @@
+body {
+    background-color: #f3f4f6;
+    padding: 24px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+.expense-list li {
+    background: #e5e7eb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
