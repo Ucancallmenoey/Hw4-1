@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appointment Management System</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ระบบจัดการตารางนัดหมาย</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="container">
-        <h1 class="title">Appointment Management System</h1>
+      <h1 class="title">ระบบจัดการตารางนัดหมาย</h1>
 
-        <form id="appointmentForm" class="form">
-            <input type="text" id="title" placeholder="Appointment Title" required>
-            <input type="date" id="date" required>
-            <input type="time" id="startTime" required>
-            <input type="time" id="endTime" required>
-            <button type="submit">Create Appointment</button>
-        </form>
+      <form id="appointmentForm" class="form">
+        <input type="text" id="title" placeholder="หัวข้อการนัดหมาย" required />
+        <input type="date" id="date" required />
+        <input type="time" id="startTime" required />
+        <input type="time" id="endTime" required />
+        <button type="submit">สร้างนัดหมาย</button>
+      </form>
 
-        <h2>Upcoming Appointments</h2>
-        <ul id="appointmentList" class="appointment-list"></ul>
+      <h2>นัดหมายที่กำลังจะมาถึง</h2>
+      <ul id="appointmentList" class="appointment-list"></ul>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
