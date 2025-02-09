@@ -9,20 +9,19 @@
 <body>
     <div class="container">
         <h2>บันทึกค่าใช้จ่าย</h2>
-        <form id="expense-form">
-            <input type="text" id="title" placeholder="ชื่อรายการ">
-            <input type="number" id="amount" placeholder="จำนวนเงิน">
-            <select id="category">
-                <option value="food">อาหาร</option>
-                <option value="transport">เดินทาง</option>
-                <option value="shopping">ช้อปปิ้ง</option>
-                <option value="other">อื่น ๆ</option>
-            </select>
-            <input type="date" id="date">
-            <button type="submit">เพิ่มรายการ</button>
-        </form>
+        <p class="student-id">รหัสนิสิต: 6160128</p>
+        <input type="text" id="expenseName" placeholder="ชื่อรายการ">
+        <input type="number" id="expenseAmount" placeholder="จำนวนเงิน">
+        <select id="expenseCategory">
+            <option value="อาหาร">อาหาร</option>
+            <option value="เดินทาง">เดินทาง</option>
+            <option value="ช้อปปิ้ง">ช้อปปิ้ง</option>
+            <option value="อื่นๆ">อื่นๆ</option>
+        </select>
+        <input type="date" id="expenseDate">
+        <button onclick="addExpense()">เพิ่มรายการ</button>
         <h3>รายการค่าใช้จ่าย</h3>
-        <ul id="expense-list"></ul>
+        <ul id="expenseList"></ul>
     </div>
     <script src="script.js"></script>
 </body>
